@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*{
+    font-family: 'Open sans',sans-serif;
+}
+  footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+    background-color: black;
+    width: 100vw;
+    height: 35em;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -6em;
+    width: 70%;
+  }
+  
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: start;
+    justify-content: center;
+  }
+  
+  .logo-footer img {
+    width: 110px; /* Ajustez la taille du logo selon vos besoins */
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin-top: 5em;
+  }
+  
+  .useful-links,
+  .social-media {
+    margin-bottom: 20px;
+  }
+  
+  .useful-links h4,
+  .social-media h4 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .useful-links ul,
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    color: #9f1016;
+  }
+  
+  .useful-links li,
+  .social-media li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 3em;
+    width: 90%;
+  }.txt-log.footer-log {
+    font-size: 15px;
+    margin-top: -2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 4px;
+  }
+  
+  .address {
+    font-size: 1.6em;
+    margin-bottom: -1em;
+    margin-top: 2em;
+    margin-left: 1.5em;
+  }
+  
+  a {
+    color: #ffffff;
+  }
+  a:hover{
+    color: #c10510;
+  }
+  
+  ul :hover{
+    color: #c10510;
+  }
+  hr {
+    background-color: #5d0409;
+    width: 42em;
+    border: 0.5px solid #5d0409;
+    margin-left: 17em;
+    margin-bottom: 2em;
+    }
+  
+  .logo_footer {
+      margin-top: 4em;
+  }
+  .title-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.raccourci h4 {
+    font-size: 31px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+.raccourci ul {
+    font-size: 25px;
+    margin: 15px 0;
+    line-height: 33px;
+}
+
+.social-icons a {
+    font-size: 35px;
+    margin: 0px 20px;
+    color: #fff;
+}
+
+.social-icons a :hover{
+    color: #c10510;
+}
+.social-icons {
+    display: flex;
+    width: 90%;
+    margin-left: 4em;
+    margin-bottom: 2em;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+h1.unifortech-txt {
+    margin-top: 3.5em;
+    font-weight: 500;
+    margin-left: -33px;
+}
+.logo.logo-footer {
+  margin-top: 4em;
+}
+
+h1.unifortech-txt-footer {
+  font-size: 1.5em;
+  margin-top: -0.2em;
+}
+
+.raccourcifooter {
+  margin-top: 6em;
+  font-size: 1.4em;
+}
+

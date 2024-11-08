@@ -1,0 +1,633 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    /* padding: 0% 3%; */
+    /* padding-top: 50px; */
+    margin-bottom: 22px;
+  }
+  
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .logo img {
+    height: 50px;
+    margin-right: 10px;
+    width: 4em;
+  }
+  
+  .navbar .logo h1 {
+    color: #fff;
+    margin: 0;
+  }
+  
+  .navbar .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .header-image {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .header-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .header-image h2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+  }
+  .header_accueil_co{
+    width: 100Vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../img/accueil/headerop.png);
+    background-color: black;
+    margin-bottom: 8em;
+    margin-top:-22px;
+  }
+  
+  .header-text {
+    color: white;
+  }
+  .div-bvn{background-color: rgba(0, 0, 0, 0.6);
+    width: 20%;
+    margin-top: 217px
+    ;margin-left: 624px;
+    padding-top: 67px;
+    padding-bottom: 71px;
+    padding-right: 473px;}
+  h1.bienvenu-slogo {
+    font-size: 2.4em;
+    width: 16.4em;
+    margin-left: 2.5em;
+    margin-top: 35px;
+    margin-top: px;
+  }
+  
+  h1.txt-1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    width: 20em;
+    margin-left: 1.7em;
+    height: 3.15em;
+    margin-top: 0.5em;
+  }
+  
+  .texte1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    background-color: #0e1629;
+  }.container {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    opacity: 0.9;
+  }
+  
+  .container:hover .overlay {
+    width: 100%;
+  }
+  
+  .text-sourcestitrearrow {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+  }
+  .img-description {
+    margin-top: 1em;
+    width: 80%;
+  }
+  .container {
+    position: relative;
+    width: 50%;
+  }
+  .\33 -premiere {
+    display: flex;
+  }
+  
+  .\33 -derniere {
+    display: flex;
+    margin-top: -0.5em;
+  }
+  p.txt {
+    font-size: 1.5em;
+    width: 28em;
+    color: white;
+    padding-left: 1em;
+    padding: 1em;
+  }
+  .vertical-line {
+    border-left: 5px solid white; /* Changez la couleur et la largeur de la ligne ici */
+    height: 143px; /* Changez la hauteur de la ligne ici */
+    border-radius: 29em;
+    margin: 20px; /* Optionnel: ajustez l'espace autour de la ligne */
+    margin-left: -23em;
+  }
+  section.ressources {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8em;
+  }
+  
+  p.ressource-txt {
+    font-size: 1.5em;
+    width: 45em;
+    margin-left: 1em;
+    margin-top: 0em;
+    margin-bottom: -1em;
+    color: #cd1119;
+  }
+  
+  .overlay.im1 {background-color: #0e1629;}
+  
+  .overlay.im2 {
+    background-color: #9f1016;
+  }
+  
+  .overlay.im3 {background-color: #f47d07;}
+  
+  .overlay.im4 {
+    background-color: #6f6f6f;
+  }
+  
+  .overlay.m5 {
+    background-color: #00838d;
+  }
+  
+  .overlay.m6 {
+    background-color: #c10510;
+  }
+  
+  h1.titre-ressources.txt-1 {
+    width: 30em;
+    margin-left: 8em;
+  }
+  .card-ev {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container-card-ev {
+    padding: 2px 16px;
+  }
+  .card-ev {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+  }
+  
+  /* Add rounded corners to the top left and the top right corner of the image */
+  img-ev {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  
+  
+  img.imgg-uni {
+    width: 22em !important;
+    margin-left: 59.5em !important;
+    margin-top: -15em !important;
+  }
+  section.biblio {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8em;
+  }
+  
+  
+  img.imgg-biblio {width: 46em;margin-top: -0.5em;}
+  .img-biblio {
+    width: 60%;
+    align-items: center;
+  }
+  
+  p.txtt-bib {width: 20em;margin-left: 3em;font-size: 1.3em;margin-top: 1em;font-weight: 400;}
+  
+  .txt-biblio {
+    width: 40%;
+    margin-left: 1.5em;
+  }
+  
+  .txt-img-biblio {
+    display: flex;
+    width: 100%;
+  }
+  
+  .zoom {
+    transition: transform 1s; /* Animation */
+    width: 200px;
+    margin: 0 auto;
+    width: 18em;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+  img.zoom.m1-service {
+    height: 18em;
+  }
+  section.service {
+    background-color: #00000017;
+    width: 100vw;
+    margin-top: 7em;
+    color: white;
+    height: 87em;
+    background-color: #871010;
+  }
+  
+  .d1-service {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .div2-1service {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .div1-1service {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .deux-prrem {
+    display: flex;
+    width: 100%;
+    height: 50%;
+  }
+  
+  .div21 {
+    width: 50%;
+    height: 100%;
+    background-color: green;
+  }
+  
+  .div22 {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+  }
+  
+  .servuce-div1 {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  p.txt-service {
+    width: 29em;
+    margin-top: 1em;
+    font-size: 1.3em;
+  }
+  
+  .div11-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+  
+  .div12-evenement {padding: 1em;border: solid 1px #0000001f;background-color: white;width: 20em;height: 30em;color: black;}
+  
+  
+  .div12-evenement.servuce-div1.D2 {
+    margin-top: -21em;
+  }
+  
+  .div12-evenement.div21-annoces {
+    margin-left: 3.5em;
+    margin-top: -16em;
+  }
+  
+  .servuce-div1.D3 {
+    margin-top: 3em;
+  }
+  
+  .div12-evenement.div32info-enseignant {margin-top: 13em;}
+  
+  .div12-evenement.div32info-enseignant {
+    margin-left: 29em !important;
+    margin-top: -15em;
+  }
+  
+  
+  
+  .div12-evenement.servuce-div1.D2 {
+    margin-left: 3em;
+    margin-top: -17em;
+  }
+  .div11-intro.div12-evenement {
+    margin-left: -9em;
+    margin-top: 8em;
+  }
+  
+  .div12-evenement.div31-enmploi-univ {
+    margin-left: 5em;
+    margin-top: 1em;
+  }
+  
+  
+  
+  .div11-intro.div12-evenement.infou {
+      margin-top: -16em;
+      margin-left: 5em;
+  }
+  .div12-evenement.newev {
+    margin-left: 31em;
+    margin-top: -30em;
+  }
+  
+  h2.titreuniv {color: black;}
+  
+  p.txteunivt.txt-ser {
+    color: black;
+  }
+  .arrow-1 {
+    cursor: pointer;
+    width: 54px;
+    height: 26px;
+    display: flex;
+  }
+  .arrow-1:before {
+    content: "";
+    background: currentColor;
+    width:15px;
+    clip-path: polygon(0 10px,calc(100% - 15px) 10px,calc(100% - 15px) 0,100% 50%,calc(100% - 15px) 100%,calc(100% - 15px) calc(100% - 10px),0 calc(100% - 10px));
+    animation: a1 1.5s infinite linear;
+  }
+  @keyframes a1 {
+    90%,100%{flex-grow: 1}
+  }
+  h1.resstitre {
+    display: flex;
+  }
+  .text-sourcestitrearrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .arrow-1.a1 {
+    margin-top: -1em;
+  }
+  
+  h1.resstitre1 {text-align: center;}
+  h1.resstitre5 {
+    text-align: center;
+  }
+  
+  h1.resstitre2 {
+    text-align: center;
+  }
+  
+  footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6em;
+    background-color: black;
+    width: 100%;
+  }
+  
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3em;
+  }
+  
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo img {
+    width: 100px; /* Ajustez la taille du logo selon vos besoins */
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 9em;
+    align-items: center;
+  }
+  
+  .useful-links,
+  .social-media {
+    margin-bottom: 20px;
+  }
+  
+  .useful-links h4,
+  .social-media h4 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .useful-links ul,
+  .social-media ul {
+    list-style: none;
+    padding: 0;
+    color: #9f1016;
+  }
+  
+  .useful-links li,
+  .social-media li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 3em;
+  }.txt-log.footer-log {
+    font-size: 1em;
+    margin-left: 5em;
+    margin-top: -4.1em;
+  }
+  
+  .address {
+    margin-top: 3em;
+    width: 14em;
+    font-size: 1.5em;
+    margin-left: 1em;
+  }
+  
+  a {
+    color: #9f1016;
+  }
+  
+  
+  
+  hr {background-color: white;width: 66em;}
+  
+  .logo_footer {
+      margin-top: 4em;
+  } 
+  section.contactez-nous {display: flex;margin-top: 8em;}
+  
+  .txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+  }
+  
+  h2.rejoignez-nous-titre {
+    font-size: 4em;
+  }
+  
+  p.inscrp {
+    width: 28em;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  .img-contact {
+    width: 50%;
+  }
+  .button {
+    margin-top:10px;
+    margin-left:50px;
+    position: relative;
+    padding: 14px 54px;
+    border-radius: 1vw;
+    background-color: black;
+    font-family: 'montserrat', sans-serif;
+    color: #fafafa;
+    border: solid 1.5px white;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); /* easeOutQuart */
+    -webkit-mask-image: -webkit-radial-gradient(white, black); /* force safari to respect border radius */
+  }
+  
+  .button .button-text {
+    position: relative;
+    z-index: 2;
+    text-transform:uppercase;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .button .fill-container {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    padding-bottom: 100%;
+    transform: translateY(-50%) rotate(180deg);
+  }
+  
+  .button .fill-container::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #9f1016;
+    border-radius: 50%;
+    transition: all 0.6s cubic-bezier(0.25, 1, 0.5, 1); /* easeOutQuart */
+    transform: translateY(-100%);
+  }
+  
+  .button:hover {
+    border-color: white;
+    transform: translateY(-4px);
+  }
+  
+  .button:hover .fill-container {
+    transform: translateY(-50%) rotate(0);
+  }
+  
+  .button:hover .fill-container::after {
+    transform: translateY(0);
+  }
+  .lien_fleche{
+    color:white;
+  }
+  .imagecontactt {
+    width: 40em;
+  }
+  
+  .imgsoon {
+    height: 16em;
+  }

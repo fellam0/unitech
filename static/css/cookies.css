@@ -1,0 +1,33 @@
+#cookieConsent {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+#cookieConsent .cookie-message {
+    flex-grow: 1;
+}
+
+#cookieConsent button {
+    background-color: red;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#cookieConsent button:hover {
+    background-color: red;
+}
+
